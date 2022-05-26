@@ -1,0 +1,39 @@
+*{
+margin: 0; padding: 0; box-sizing: border-box;
+}
+.header {
+  background: linear-gradient( to right, rgb(255, 255, 256), rgb(230, 137, 137)) ;
+  padding:60px;
+  text-align: center;
+}
+.hero2{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+
+    text-align: center;
+    color: white;
+}
+.change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+  
+  @keyframes changetext {
+    0% {content: "Place of Peace";}
+    45% {content: "Come for Prayer";}
+    70% {content: "Come for Peace";}
+    100% {content: "Please Donate Generously";}
+  } 
+  .thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 13%;
+    left: 0;
+    width: 100%;
+}
+

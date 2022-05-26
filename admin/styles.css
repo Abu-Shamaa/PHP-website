@@ -1,0 +1,63 @@
+*{
+margin: 0; padding: 0; box-sizing: border-box;
+}
+.header {
+  background: linear-gradient( to right, rgb(255, 255, 256), rgb(230, 137, 137)) ;
+  padding:60px;
+  text-align: center;
+}
+.hero2{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+
+    text-align: center;
+    color: white;
+}
+.change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+  
+  @keyframes changetext {
+    0% {content: "Place of Peace";}
+    45% {content: "Come for Prayer";}
+    70% {content: "Come for Peace";}
+    100% {content: "Please Donate Generously";}
+  } 
+  .thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 13%;
+    left: 0;
+    width: 100%;
+}
+
+.container .form{
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.container .form form .button{
+    background: #6665ee;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #5757d1;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+
